@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Hangfire.Web.Business")]
+[assembly: AssemblyTitle("Hangfire.Shared")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Hangfire.Web.Business")]
+[assembly: AssemblyProduct("Hangfire.Shared")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("e8132f65-abc0-42e8-977f-c96378b7cb78")]
+[assembly: Guid("4a63ff6b-497e-43cc-a653-a9f26e63cf45")]
 
 // Version information for an assembly consists of the following four values:
 //

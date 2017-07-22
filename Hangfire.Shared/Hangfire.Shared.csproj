@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{44DD1A11-4BBF-46E7-AFAD-2FF7A777EBFA}</ProjectGuid>
+    <ProjectGuid>{4A63FF6B-497E-43CC-A653-A9F26E63CF45}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Hangfire.Console.Business</RootNamespace>
-    <AssemblyName>Hangfire.Console.Business</AssemblyName>
+    <RootNamespace>Hangfire.Shared</RootNamespace>
+    <AssemblyName>Hangfire.Shared</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -40,6 +40,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IPageLoadEventHandler.cs" />
+    <Compile Include="PageLoadEvent.cs" />
+    <Compile Include="PageLoadEventHandler.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

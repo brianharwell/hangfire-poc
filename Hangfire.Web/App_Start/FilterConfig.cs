@@ -1,5 +1,6 @@
 ﻿using System.Web;
 using System.Web.Mvc;
+using Hangfire.Web.Controllers.Filters;
 
 namespace Hangfire.Web
 {
@@ -8,6 +9,7 @@ namespace Hangfire.Web
         public static void RegisterGlobalFilters(GlobalFilterCollection filters)
         {
             filters.Add(new HandleErrorAttribute());
+            filters.Add(new PageLoadActionFilter());
         }
     }
 }
